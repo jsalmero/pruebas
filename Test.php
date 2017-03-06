@@ -9,6 +9,10 @@ class MathTest extends PHPUnit_Framework_TestCase
         $this->value1 = 2;
         $this->value2 = 3;
     }
+public function testPass()
+{
+    $this->assertTrue($this->value1 + $this->value2 == 5);
+}
 }
 ?>
 
